@@ -20,12 +20,12 @@
  */
 package es.ull.flights;
 
+import es.ull.passengers.Passenger;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import es.ull.passengers.Passenger;
 
 public class Flight {
 
@@ -65,4 +65,5 @@ public class Flight {
         passenger.setFlight(null);
         return passengers.remove(passenger);
     }
+
 }
