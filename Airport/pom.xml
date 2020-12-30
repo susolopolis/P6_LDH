@@ -45,10 +45,6 @@
                             <goal>report</goal>
                         </goals>
                         <configuration>
-                            <excludes>
-                                <exclude>src/test/es/ull/flights/FlightTest.class</exclude>
-                                <exclude>src/test/es/ull/passengers/PassengerTest.class</exclude>
-                            </excludes>
                         </configuration>
                     </execution>
                 </executions>
